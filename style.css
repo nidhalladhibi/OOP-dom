@@ -56,4 +56,21 @@ body {
     margin-bottom: 10px;
     border-radius: 5px;
   }
-    
+  .whatsapp-link {
+    display: inline-flex;
+  align-items: center;
+  gap: 10px; /* Espace entre l'icône et le texte */
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: #25D366; /* Couleur verte WhatsApp */
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  .whatsapp-link:hover {
+    background-color: #1EBE5B; /* Couleur légèrement plus sombre au survol */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
